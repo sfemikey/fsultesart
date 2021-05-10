@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body{
+	margin:0px;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+	color:#ff999a;
+}
+
+#wrapper{
+	margin-top:20px;
+}
+
+.header {
+    align-content: center;
+    width:100%;
+}
+
+nav {
+    float: center;
+    padding: 5px 5px;
+    padding-right:10px;
+    word-spacing: 50px;
+		background-color:#ff999a;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 15px;
+		font-size:1em;
+}
+
+h2.title {
+	margin-top: 40px;
+    padding: 30px;
+}
+
+/* -------------- Quote Styles ------------*/
+.quotes {
+	font-style:italic;
+	font-size:1em;
+	margin-top:50px;
+	line-height:30px;
+  margin-bottom: 80px;
+	padding:40px 30px 40px 30px;
+}
+
+.line-break {
+	border: 1px solid grey;
+    margin: 3px auto;
+    width: 100%;
+}
+
+.content-wrapper h2 {
+	text-decoration: underline;
+	padding-bottom:20px;
+}
+
+#contact {
+	background-color:#ff999a;
+	margin:0;
+	padding:30px 0;
+	padding-bottom:80px;
+}
+
+#contact .content-wrapper h2 {
+	color:#3f3e6f;
+	padding-top: 1.5em;
+}
+
+#contact .content-wrapper a {
+	color:#fff;
+	font-size:.875em;
+}
+
+#contact .content-wrapper p {
+	padding-bottom: 3em;
+	color:#fff;
+	font-size:.875em;
+}
+
+/*****Copyright*****/
+.copyright p {
+	color:#3f3e6f;
+	font-size: .875em;
+}
+}
+
+@media only screen and (min-width: 768px) {
+/*Tablet styles here*/
+nav ul {
+	font-size:1.75em;
+}
+
+#contact .content-wrapper a {
+	font-size: 1.125em;
+}
+
+#contact .content-wrapper p {
+	font-size: 1.125em;
+}
+
+.quotes {
+	padding:10px 40px 10px 40px;
+	font-size:2em;
+}
+
+p {
+	font-size:3em;
+}
+
+iframe {
+	width:60%;
+	min-height:1500px;
+}
+
+#contact {
+	Padding-bottom:2em;
+}
+
+.copyright p {
+	font-size: 1.25em;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+/*Desktop styles here*/
+h2.title {
+	font-size:2.25em;
+}
+
+.quotes {
+	font-size: 1.5em;
+}
+
+iframe {
+	padding-left: 0;
+}
+
+#contact .content-wrapper a {
+	font-size: 1.125em;
+}
+
+#contact .content-wrapper p {
+	font-size: 1.125em;
+}
+
+.copyright p {
+	font-size: 1.25em;
+}
+}
